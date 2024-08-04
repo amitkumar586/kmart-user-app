@@ -30,6 +30,7 @@ class GetServerKey {
       scope,
     );
 
-    return "";
+    final accessServerKey = client.credentials.accessToken.data;
+    return accessServerKey;
   }
 }
