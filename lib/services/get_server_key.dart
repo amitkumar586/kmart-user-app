@@ -30,6 +30,7 @@ class GetServerKey {
           // },
           {
             "type": dotenv.env['TYPE'],
+            "project_id": dotenv.env["PROJECT_ID"],
           }),
       scope,
     );
