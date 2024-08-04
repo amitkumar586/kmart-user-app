@@ -1,0 +1,76 @@
+{
+    "categories": [
+        {
+            "name": "womwen Clothing",
+            "subcategory": [
+                "Wedding & Events",
+                "Top's & Shirts",
+                "watches"
+            ]
+        },
+        {
+            "name": "Men's Clothing",
+            "subcategory": [
+                "Wedding & Events",
+                "Top's & Shirts",
+                "watches"
+            ]
+        },
+        {
+            "name": "Computer & Tab",
+            "subcategory": [
+                "Laptop",
+                "Gaming Pc",
+                "Official Equipments"
+            ]
+        },
+        {
+            "name": "Auto Mobile",
+            "subcategory": [
+                "Auto",
+                "Bike",
+                "Car"
+            ]
+        },
+        {
+            "name": "Kids & Toys",
+            "subcategory": [
+                "Laptop",
+                "Gaming Pc",
+                "Official Equipments"
+            ]
+        },
+        {
+            "name": "Sports",
+            "subcategory": [
+                "Laptop",
+                "Gaming Pc",
+                "Official Equipments"
+            ]
+        },
+        {
+            "name": "Jewelery",
+            "subcategory": [
+                "Earing",
+                "Paddle",
+                "Ring"
+            ]
+        },
+        {
+            "name": "Cellphone & Tab",
+            "subcategory": [
+                "Earing",
+                "Paddle",
+                "Ring"
+            ]
+        },
+        {
+            "name": "Cellphones & Tab",
+            "subcategory": [
+                "Earing",
+                "Paddle",
+                "Ring"
+            ]
+        }
+    ]
+}
