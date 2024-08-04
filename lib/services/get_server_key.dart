@@ -1,7 +1,9 @@
 import 'package:googleapis_auth/auth_io.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class GetServerKey {
   Future<String> getServerKeyToken() async {
+    await dotenv.load(fileName: '.env');
     final scope = [
       'https://www.googleapis.com/auth/userinfo.email',
       'https://www.googleapis.com/auth/firebase.database',
@@ -26,7 +28,9 @@ class GetServerKey {
           //       "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ypsie%40kmart-2c7fd.iam.gserviceaccount.com",
           //   "universe_domain": "googleapis.com"
           // },
-          {}),
+          {
+            "type": dotenv.env['TYPE'],
+          }),
       scope,
     );
 
