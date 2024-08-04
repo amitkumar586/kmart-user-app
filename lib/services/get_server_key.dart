@@ -12,22 +12,22 @@ class GetServerKey {
     final client = await clientViaServiceAccount(
       ServiceAccountCredentials.fromJson(
           // {
-          //   "client_email":
-          //       "firebase-adminsdk-ypsie@kmart-2c7fd.iam.gserviceaccount.com",
-          //   "client_id": "112655609082587507785",
-          //   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-          //   "token_uri": "https://oauth2.googleapis.com/token",
-          //   "auth_provider_x509_cert_url":
-          //       "https://www.googleapis.com/oauth2/v1/certs",
-          //   "client_x509_cert_url":
-          //       "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-ypsie%40kmart-2c7fd.iam.gserviceaccount.com",
+
           //   "universe_domain": "googleapis.com"
           // },
           {
             "type": dotenv.env['TYPE'],
             "project_id": dotenv.env["PROJECT_ID"],
             "private_key_id": dotenv.env["PRIVATE_KEY_ID"],
-            "private_key": dotenv.env["PRIVATE_KEY"]
+            "private_key": dotenv.env["PRIVATE_KEY"],
+            "client_email": dotenv.env["CLIENT_EMAIL"],
+            "client_id": dotenv.env["CLIENT_ID"],
+            "auth_uri": dotenv.env["AUTH_URI"],
+            "token_uri": dotenv.env["TOKEN_URI"],
+            "auth_provider_x509_cert_url":
+                dotenv.env["AUTH_PROVIDER_X509_CERT_URL"],
+            "client_x509_cert_url": dotenv.env["CLIENT_X509_CERT_URL"],
+            "universe_domain": dotenv.env["UNIVERSE_DOMAIN"]
           }),
       scope,
     );
