@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "573732244427",
+    "project_id": "kmart-2c7fd",
+    "storage_bucket": "kmart-2c7fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573732244427:android:15052d9da4c4b073e9c44e",
+        "android_client_info": {
+          "package_name": "com.example.kmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyKzX1n1p-igX8LZ0uQuUdU5gRxSNhfSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
