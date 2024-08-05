@@ -24,6 +24,8 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     notoficationService.requestNotificationPermission();
     notoficationService.getDeviceToken();
+    notoficationService.firebaseInit(context);
+    notoficationService.setupIntractMessage(context);
     FcmServie.firebaseInit();
     super.initState();
   }
