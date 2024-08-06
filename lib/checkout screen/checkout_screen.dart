@@ -263,12 +263,12 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                       const Spacer(),
                       InkWell(
                         onTap: () async {
-                          Get.snackbar("Error", "Added to cart");
-                          // showCustomBottomSheet();
-                          GetServerKey getServerKey = GetServerKey();
-                          String accessToken =
-                              await getServerKey.getServerKeyToken();
-                          print(accessToken);
+                          Get.snackbar("", "Added to cart");
+                          showCustomBottomSheet();
+                          // GetServerKey getServerKey = GetServerKey();
+                          // String accessToken =
+                          //     await getServerKey.getServerKeyToken();
+                          // print(accessToken);
                         },
                         child: Container(
                           // margin: const EdgeInsets.all(5.0),

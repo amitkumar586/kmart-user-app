@@ -5,6 +5,7 @@ import 'package:kmart/views/category/category_screen.dart';
 import 'package:kmart/views/home_screen/home_screen.dart';
 import '../../common_widgets/exit_dialog.dart';
 import '../../const/consts.dart';
+import '../../widgets/custom_drawer.dart';
 import '../profile_Screen/profile_screen.dart';
 
 class Home extends StatelessWidget {
@@ -42,6 +43,10 @@ class Home extends StatelessWidget {
         return false;
       },
       child: Scaffold(
+        appBar: AppBar(
+          backgroundColor: lightGrey,
+        ),
+        drawer: DrawerWidget(),
         body: Column(
           children: [
             Obx(() => Expanded(
